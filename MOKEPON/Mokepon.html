@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>MOKEPON</title>
+        <script src="../codigo/mokepon.js"></script>         
+
+        <!-- .. doble punto es la busqueda madre de la carpeta -->
+
+    </head>
+    <body>
+        <h1>MOKEPON 🔥 💧 🌱</h1>
+
+        <!-- section son como seccione, si o si tiene que tener un parametro como: id  -->
+        <!--h2 es utilizado para subtitulos--> 
+
+        <section id="seleciona-tu-mascota">
+            <h2>selecciona tu mascota:</h2>
+
+            <input type="radio" name="mascota" id="Hipodoge"/> 
+            <label for="Hipodoge">Hipodoge</label> <br>
+
+            <input type="radio" name="mascota" id="Capipepo"/> 
+            <label for="Capipepo">Capipepo</label> <br>
+
+            <input type="radio" name="mascota" id="Ratigueya"/> 
+            <label for="Ratigueya">Ratigueya</label> <br>
+
+            <input type="radio" name="mascota" id="Langostelvis" />
+            <label for="Langostelvis">Langostelvis</label> <br>
+
+            <input type="radio" name="mascota" id="Tucapalma"/>
+            <label for="Tucapalma">Tucapalma</label> <br>
+
+            <input type="radio" name="mascota" id="Pydos"/>
+            <label for="Pydos">Pydos</label> <br>
+            
+            <!-- el id es para darle nombres -->
+            <!-- br es pasar a otra linea -->
+            
+            <!-- Hipodoge -> Agua
+            Capipepo -> Tierra
+            Ratigueya -> Fuego 
+            Langostelvis -> Agua y Fuego 
+            Tucapalma -> Agua y Tierra 
+            Pydos -> Tierra y Fuego --> 
+
+            <br>
+            <button id="boton-mascota">Seleccionar</button>
+
+        </section> 
+        <!--button son botones--> 
+
+        <section id="seleciona-tu-ataque">
+
+            <h2>elige tu ataque:</h2> 
+
+            <p>tu mascota <span id="mascota-jugador"></span> tiene <span id="vidas-Jugador">3</span> vidas</p>
+            <p>la mascota <span id="mascota-enemigo"></span> del enemigo tiene <span id="vidas-Enemigo">3</span> vidas</p>
+            <p>
+                <button id="boton-fuego">Fuego 🔥</button>
+                <button id="boton-agua">Agua 💧</button>
+                <button id="boton-tierra">Tierra 🌱</button>
+            </p>
+
+        </section>
+
+        <section id="mensaje">
+
+        </section>
+
+        <section id="reiniciar">
+
+            <button id="boton-reiniciar">REINICIAR</button>
+
+        </section>
+       
+    </body>
+</html>
